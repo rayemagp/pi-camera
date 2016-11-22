@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pi-camera-150310",
+  "private_key_id": "f2993dc31aa56cbea2d549aa4cefc624276b4ea7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC72su2BXpL39R9\noApeLPD4zudGVHHZlG0gfUWgSaY5bp76+rNbAWltfM0TqNJbLtra+FhE2tk33nnC\nrp/zPJeo00fYs91gsUJq+DjGLttKdcHewy7CAmec1s3oyuGuEB5sK9xljnMuvzqm\nnfytCBG6AdJ1JmWPF4ZNwlZtFkkvX6nmbRqlDLGeRkidtl5uhfzY1eymbe5VbVPC\no3qYQi3JWyFV8UAsLYvj5F5JX67jyzHMw7S+0ksebhnvXcJE6Rh7WDnNtZZa/a9p\nIpKXYgG12rb6Micecs3acUzAKq3AnHlu9G0K2hwTij55x7P/Ckr6CDdCJJPc0P0D\n0aEI5pV3AgMBAAECggEBAKF73xwUr2GkAtUPC3qTZX5s1hD2LHxehESmi4DTbun1\n9wJHGoEDwK5W1y+sM1AhAg+z5qUiABJv0/mQBX2hu7lsDlnxnD8vganUwXFT/DyQ\n59xnqr0qNglz+cPBC6mGv7A7MBW5E7i+uFtcekYAJsTgJhuAq1MLZO9ZPNQ/kR//\nwieS0q4Rqw9uEhlJGebXPMqzvY98CKQqm5H/Zv7dbOsVQ9aVtUGiUSZg4wCEjvni\n5SaF/vntyjnk7yN5HclttM3b5+1bdItLBNclyjd5qG44SiWUH4kXTXThD91J2a2U\nh22bJppKuoZFgxRwzchppTlEW/pQ8yQH4tc6iEJoRskCgYEA4iMxtf0A9s8QdLyY\nGSGIUxh05Og4o1PKEPIf+lqH89zoRrFcgqLWv5df1Bt9yaJRmxFzb3FItlXkEeKE\nKaAjyvtZSHxaufhXDSf5pftbr5QviPaKTJ3er7fAILKKZS9EDC+6ahPgazqRlWz5\nG3X//UTMc6SMKW2fUjESDuHGkbsCgYEA1KlpofO51xiL74T3xuTKNSMPefUe51qP\nTM8Jdw+UkzHCOwA4FAJCUHXcEO/McM/GA/uxhoPuYJiTXpAp6pIrZxXMJAmjctGA\nUnEGPNRajOVqV9WF3ijGJUTWqEqZk5kCpebo48EEdOJCX3RLY5PcwDJOgwuwkxch\nKxWA9ddYwXUCgYB5z4dphn1MdUFiAGzVrLBoQlZFL6nCoNHJywLasoVlIOulmMhC\nPkD7NykRcjWRtXPL2dyafSUzwpR15dRXL8HYBwiS+RlN763EknHxrLI4o9PvLQ5W\nMvvPH2XItyPBWXKINfVuSoKqgAQHv4l391oLLVIMQOiXMEuP1IrrpUZ3HQKBgQCT\nfoSDDNWh96Zmk2R+kAQm4pBDV9z9PPQSo62+5BF6HZLG9Rnv1rlDsNrW7FpxC8oc\nzR6NW0eju27KsVZBGOv9bULO49h3NBK6GyXmXqoG+r7M+I0GTmVPR/VRd5wYoJET\nm5l/DUoX/y1lovT+tXjv3HRTs3HeMraQeTOeTqOCWQKBgAVAx9O0M1uy0ndSCFfz\nx0ag0+Eai/FrhLgeA5ckA9jw8D0kBHlO4ommaUCCh+T623lEAzOXeJOQcuxk9TtD\nS+cJZYs6/+KkE3uAg5zBL+YQOSKk2kQ9SVghXgZRKVy98zeYmwe9gsGLuVkb1OOE\nBgrgBGqtQjxPdsJDNCqaIN3J\n-----END PRIVATE KEY-----\n",
+  "client_email": "pi-camera@pi-camera-150310.iam.gserviceaccount.com",
+  "client_id": "110226591986979010990",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pi-camera%40pi-camera-150310.iam.gserviceaccount.com"
+}
