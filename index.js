@@ -4,6 +4,12 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var fs = require('fs');
 var path = require('path');
+var gcloud = require('google-cloud');
+var vision = gcloud.vision({
+    projectId: 'pi-camera',
+    keyFilename: './key.json'
+});
+
 
 var spawn = require('child_process').spawn;
 var proc;
@@ -59,8 +65,11 @@ function startStreaming(io) {
         return;
     }
 
-    var args = ["-w", "640", "-h", "480", "-o", "./stream/image_stream.jpg", "-t", "999999999", "-tl", "100"];
+    var args = ["-w", "640", "-h", "480", "-o", "./stream/image_stream.jpg", "-t", "999999999", "-tl", "500","-n"];
     proc = spawn('raspistill', args);
+
+    //detect the input, push to console.log
+    detectLabels("./stream/image_stream.jpg",console.log);
 
     console.log('Watching for changes...');
 
@@ -70,4 +79,14 @@ function startStreaming(io) {
         io.sockets.emit('liveStream', 'image_stream.jpg?_t=' + (Math.random() * 100000));
     })
 
+}
+
+function detectLabels (inputFile, callback) {
+    vision.detectLabels(inputFile, { verbose: true }, function (err, labels) {
+        if (err) {
+            return callback(err);
+        }
+        console.log('result:', JSON.stringify(labels, null, 2));
+        callback(null, labels);
+    });
 }
